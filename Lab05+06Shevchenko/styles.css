@@ -1,0 +1,41 @@
+
+#chatbox{
+	width:70%;
+height:500px;
+	margin:0 auto;
+	overflow-y: auto;
+background-color: #000000;
+}
+@media (max-height: 700px) {
+	#chatbox{
+	width:100%;
+}
+p{
+	padding-bottom: 10px;
+}
+}
+
+
+#myChatForm{
+	text-align: center;
+	
+}
+input[type = "text"]{
+	width:69%;
+	padding:2px;
+	margin:3px;
+}
+textarea{
+	width:69%;
+	padding:2px;
+	margin:3px;
+
+}
+#sendMessageBtn{
+	width:70%;
+background-color: #000000;
+color:#ebe534;
+}
+#sendMessageBtn:hover{
+	background-color: #737272;
+}
